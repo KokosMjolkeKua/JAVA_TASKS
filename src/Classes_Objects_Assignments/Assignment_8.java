@@ -16,7 +16,7 @@ class Clock{
     }
 
     public void setHour(int hour) {
-        if (hour >= 0 && hour <= 24){
+        if (hour >= 0 && hour < 24){
             this.hour = hour;
         }
 
@@ -50,7 +50,7 @@ class Clock{
 
 public class Assignment_8 {
     public static void main(String[]args){
-        Clock timeOne = new Clock(12,45,01);
+        Clock timeOne = new Clock(23,45,01);
         timeOne.showTime();
         Clock timeTwo = new Clock(11,34,67);
         timeTwo.showTime();

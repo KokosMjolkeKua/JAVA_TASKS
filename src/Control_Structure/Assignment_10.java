@@ -1,9 +1,11 @@
 package Control_Structure;
 
-public class Assignment_6 {
+public class Assignment_10 {
     public static void main(String[]args){
-        for(int i = 0; i < 10; i++){
+        int i = 0;
+        while(i <= 10){
             System.out.println(i);
+            i ++;
         }
     }
 }
